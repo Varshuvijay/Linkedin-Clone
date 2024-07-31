@@ -18,3 +18,5 @@ Responsive Design: Ensures usability across various devices (desktops, tablets, 
 HTML5: For the structure of the web pages.
 
 CSS3: For styling and layout.
+
+JavaScript: For adding interactivity and dynamic features.
