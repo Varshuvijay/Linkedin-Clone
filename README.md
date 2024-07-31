@@ -7,10 +7,14 @@ The LinkedIn clone aims to provide a familiar and functional interface similar t
 
 # Features
 Core LinkedIn Features: User profiles, messaging, and networking capabilities.
+
 Sponsored Content: Allows businesses to promote their services.
+
 Hiring Manager Option: Dedicated messaging dropdown for managing recruitment.
+
 Responsive Design: Ensures usability across various devices (desktops, tablets, and smartphones).
 
 # Technologies Used
 HTML5: For the structure of the web pages.
+
 CSS3: For styling and layout.
