@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favi.png">
+    <title>LinkedIn Clone Website</title>
+    <link rel="stylesheet" href="HP.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="loader-container">
+        <div class="loader">
+            <img src="/Linkedin/Images/LinkedIn_logo.svg" alt="LinkedIn_logo">
+        </div>
+      </div>
+    <header>
+        <div class="logo">
+            <i class='bx bxl-linkedin-square' style='color:#0077b5; font-size: 34px;' alt="Logo"></i>
+
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="icons">
+            <div class="item">
+                <i class='bx bxs-home' style="font-size: 24px; color: #ff6b16;"></i><a href="/Linkedin/HP.html" style="text-decoration: none;" ><span>Home</span></a>
+            </div>
+            <div class="item">
+                <i class='bx bxs-user-voice' style="font-size: 24px;"></i><span>My Network</span>
+            </div>
+            <div class="item">
+                <i class='bx bxs-briefcase' style="font-size: 24px;"></i><span>Jobs</span>
+            </div>
+            <div class="item">
+                <i class='bx bxs-message' style="font-size: 24px;"></i><span> <a href="/Linkedin/Message.html" style="text-decoration: none;">Messages</span></a>
+            </div>
+            <div class="item">
+                <i class='bx bxs-bell' style="font-size: 24px;"></i><span>Notification</span>
+            </div>
+            <div class="item">
+                <i><img src="./Images/photo 1.png" alt="Profile Picture"></i><span>Me</span>
+            </div>
+            <div class="item">
+                <i class='bx bxs-grid' style='font-size:24px; color:#5f5f5f;'></i><span>Business</span>
+            </div>
+            <p>Unlock 1 month of premium</p>
+        </div>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="banner">
+                <img src="/Linkedin/Images/banner.jpg" alt="Banner">
+            </div>
+            <div class="profile">
+                <img src="./Images/photo 1.png" alt="Profile Picture">
+                <h4>Varshini Vijay</h4>
+                <p>UI UX Designer | AI ML Consultant | Machine Learning Engineer | UX Researcher | AI Research Scientist | Computer Vision Engineer</p>
+            </div>
+            <div class="profile-status">
+                <div class="header">
+                    <hr width="100%;" color="#b5b5b5" size="1">
+                    <div class="row">
+                        <div class="label">Profile viewers:</div>
+                        <div class="value">186</div>
+                    </div>
+                    <div class="row">
+                        <div class="label">Post impressions:</div>
+                        <div class="value">180</div>
+                    </div>
+                </div>
+                <hr width="100%;" color="#b5b5b5" size="1">
+                <div class="linkedin-add">
+                    <p>Achieve your goals career goals with Premium</p>
+                    <p2>Try for ₹0</p2>
+                </div>
+            <hr width="100%;" color="#b5b5b5" size="1">
+                <div class="saved">
+                    <i class='bx bxs-bookmark' style='color:#5f5f5f; font-size: 16px;'></i> <Span style="font-size:18px; color: #5f5f5f;">Saved</Span>
+                </div>
+            </div>
+        </aside>
+
+        <Section>
+        <main>
+            <div class="AI-Search">
+                <div class="profilepic">
+                    <img src="/Linkedin/Images/photo 1.png" alt="Profile">
+                </div>
+                <div class="searchbar">
+                    <input type="text" placeholder="Start a post, try writing with AI">
+                </div>
+
+                <div class="Reactions">
+
+                    <!-- <i class='bx bxs-image' style='color:#0073b1; font-size: 30px;' ></i> 
+                    <a href="/Linkedin/Upload.html" style="text-decoration: none;"><span style="color: #5f5f5f; font-size: 18px;">Media</span></a> -->
+
+                    <i class='bx bxs-image' style='color:#0073b1; font-size: 30px;'></i> 
+                    <a href="#" id="openOverlay" style="text-decoration: none;">
+                        <span style="color: #5f5f5f; font-size: 18px;">Media</span>
+                    </a>
+                
+                    <div id="overlay" class="overlay">
+                        <div class="overlay-content">
+                            <span class="close-button" id="closeOverlay">&times;</span>
+                            <iframe src="/Linkedin/Upload.html" width="100%" height="100%" frameborder="0"></iframe>
+                        </div>
+                    </div>
+
+
+
+
+                    
+                    <i class='bx bxs-calendar' style='color:#ffa300; font-size: 28px;' ></i> <span style="color: #5f5f5f; font-size: 18px;">Events</span>
+                    <i class='bx bx-news' style='color:#ff5f1f; font-size: 28px;'></i><span style="color: #5f5f5f; font-size: 18px;">Write article</span>
+                </div>
+            </div>
+        </main>
+
+        <div style="width: 60%; display: flex; align-items: center; justify-content: flex-end; position: relative;  margin-bottom: 10px;">
+            <hr style="width: 100%; border: 1px solid #ddd; position: absolute; top: 50%; z-index: 1; margin: 0;">
+            <div style="background-color: #f5f5f5; padding: 0 10px; position: relative; z-index: 2; font-size: 16px;">
+                Sort by: <span style="font-weight: bold; margin-left: 5px;">Top <span style="font-size: 12px; margin-left: 2px;">&#9662;</span></span>
+            </div>
+        </div>
+
+        <main>
+            <div class="post">
+                <div class="post-header">
+                    <div class="text">
+                        <h3>Setoo</h3>
+                        <p>1d ago</p>
+                    </div>
+                    <div class="text-right">
+                        <p>Follow <i class='bx bx-dots-horizontal-rounded' style='color:#5f5f5f; padding-left: 10px;'  ></i></p>
+                    </div>
+                    <img src="/Linkedin/Images/Logo.jpeg" alt="Post Logo" style="margin-left: -210px;">
+                </div>
+                <p>Redefining User Experience: How Next-Gen UI Anticipates and Adapts to User Intentions AI🧠💬
+                   <BR></BR><b>#UI #NextGenUI #NaturalUserInterface #NUI #AI #Setoo #ConversationalAI #digitalhuman</b></p>
+                <img src="/Linkedin/Images/post 1.png" alt="Post img">
+                <div class="post-footer">
+                    <h4>Next-Gen UI is the User's Intention</h4>
+                    <p>Setoo on Linkedin<li>2 mins read</li></p> <br>
+                    <p2>UI = User Interfaceis now changing into the new UI = UI Intension. The c..</p2>
+                </div>
+                <div class="add-details">
+                    <div class="interaction">
+                        <div class="emoji">
+                            <i class='bx bxs-like' style='color:#0077b5'></i>
+                            <i class='bx bxs-heart-circle' style='color:#ff4a4a'></i><span>You and 210 others</span>
+                        </div>
+                        <div class="repost">2 reposts</div>
+                    </div>
+                    <hr width="100%;" color="#b5b5b5" size="1">
+                    <div class="Reactions">
+                        <i class='bx bxs-like' style='color:#0073b1; font-size: 24px;' ></i> <span style="color: #0077b5; font-weight: 600;">Like</span>
+                        <i class='bx bx-comment-detail' style='color:#5f5f5f; font-size: 24px;'></i> <span>Comments</span>
+                        <i class='bx bx-repost' style='color:#5f5f5f; font-size: 28px;'></i> <span>Repost</span>
+                        <i class='bx bxs-send' style='color:#5f5f5f; font-size: 24px; '></i> <span>Send</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <main>
+            <div class="post">
+                <div class="post-header">
+                    <div class="text">
+                        <h3>SoulAI</h3>
+                        <p>1d ago</p>
+                    </div>
+                    <div class="text-right">
+                        <p>Follow <i class='bx bx-dots-horizontal-rounded' style='color:#5f5f5f; padding-left: 10px;'  ></i></p>
+                    </div>
+                    <img src="/Linkedin/Images/LOGO2.jpeg" alt="Post Logo">
+                </div>
+                <p>Imagine teaching a child 👶 to speak 🗣 and think 🗯. You'd start by introducing them to basic language 🈹🈲 through stories 🌃 and conversations 🗺, correcting them gently 🤝, and encouraging their curiosity 👌. <br>
+                    As they grow 👧, you'd offer more complex ideas 🕵‍♀️ and nuanced feedback 🎯, 
+                    guiding them to understand not just words, but also the values ⛳ and context ♥ behind them. 
+                   <BR></BR><b>#UI #NextGenUI #NaturalUserInterface #NUI #AI #Soul AI #ConversationalAI #digitalhuman</b></p>
+                <img src="/Linkedin/Images/post2.jpeg" alt="Post img">
+                <div class="post-footer">
+                    <h4>Human-in-the-loop (HITL)</h4>
+                    <p>Setoo on Linkedin<li>50 mins read</li></p> <br>
+                    <p2>RLHF in AI 🤖 is very much like raising or educating a child 🤓 . It sta..</p2>
+                </div>
+                <div class="add-details">
+                    <div class="interaction">
+                        <div class="emoji">
+                            <i class='bx bxs-like' style='color:#0077b5'></i>
+                            <i class='bx bxs-heart-circle' style='color:#ff4a4a'></i><span>You and 140 others</span>
+                        </div>
+                        <div class="repost">7 reposts</div>
+                    </div>
+                    <hr width="100%;" color="#b5b5b5" size="1">
+                    <div class="Reactions">
+                        <i class='bx bxs-like' style='color:#0073b1; font-size: 24px;' ></i> <span style="color: #0077b5; font-weight: 600;">Like</span>
+                        <i class='bx bx-comment-detail' style='color:#5f5f5f; font-size: 24px;'></i> <span>Comments</span>
+                        <i class='bx bx-repost' style='color:#5f5f5f; font-size: 28px;'></i> <span>Repost</span>
+                        <i class='bx bxs-send' style='color:#5f5f5f; font-size: 24px; '></i> <span>Send</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <main>
+            <div class="post">
+                <div class="post-header">
+                    <div class="text">
+                        <h3>Virtusa</h3>
+                        <p>2d ago</p>
+                    </div>
+                    <div class="text-right">
+                        <p>Follow <i class='bx bx-dots-horizontal-rounded' style='color:#5f5f5f; padding-left: 10px;'  ></i></p>
+                    </div>
+                    <img src="/Linkedin/Images/logo3.jpeg" alt="Post Logo" style="margin-left: -218px;">
+                </div>
+                <p>Legacy applications slowing you down? Speed up your journey to success with Virtusa Application Modernization.
+                   <BR></BR><b>#EngineeringFirst #AppModernization #DigitalTransformation</b></p>
+                <img src="/Linkedin/Images/post3.jpeg" alt="Post img">
+                <div class="post-footer">
+                    <h4>Next-Gen UI is the User's Intention</h4>
+                    <p>Setoo on Linkedin<li>2 mins read</li></p> <br>
+                    <p2>Experience 30% faster modernization and unlock unparalleled efficien..</p2>
+                </div>
+                <div class="add-details">
+                    <div class="interaction">
+                        <div class="emoji">
+                            <i class='bx bxs-like' style='color:#0077b5'></i>
+                            <i class='bx bxs-heart-circle' style='color:#ff4a4a'></i><span>You and 80 others</span>
+                        </div>
+                        <div class="repost">1 reposts</div>
+                    </div>
+                    <hr width="100%;" color="#b5b5b5" size="1">
+                    <div class="Reactions">
+                        <i class='bx bxs-like' style='color:#0073b1; font-size: 24px;' ></i> <span style="color: #0077b5; font-weight: 600;">Like</span>
+                        <i class='bx bx-comment-detail' style='color:#5f5f5f; font-size: 24px;'></i> <span>Comments</span>
+                        <i class='bx bx-repost' style='color:#5f5f5f; font-size: 28px;'></i> <span>Repost</span>
+                        <i class='bx bxs-send' style='color:#5f5f5f; font-size: 24px; '></i> <span>Send</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        </Section>
+        <aside class="right-sidebar">
+            <h3>LinkedIn News</h3>
+            <p1>Top stories</p1>
+            <ul>
+                <li>Key takeaways from Budget ...</li>
+                <p>10h ago • 30,616 readers</p>
+                <li>Global IT outage hits busines...</li>
+                <p>1d ago • 10,399 readers</p>
+                <li>Smaller cities turn jobs hubs</li>
+                <p>1d ago • 19,696 readers</p>
+                <li>Boardrooms get younger</li>
+                <p>2d ago • 40,563 readers</p>
+                <li>Aviation jobs to take off</li>
+                <p>2d ago • 12,647 readers</p>
+                <div class="row">
+                    <div class="label" style="font-size: 14px; color: #5f5f5f; margin-top: 1px;" >Show more</div>
+                    <div class="value"><i class='bx bx-chevron-down' style='color:#5f5f5f; font-size:20px; padding-right: 116px;'></i></div>
+            </ul>
+            <h5 style="color: #5f5f5f;">Today's game <span style="font-size: 12px; color: #121212; background-color: bisque; padding: 4px;">New</span></h5> 
+            <div class="games-container">
+
+                <div class="game">
+                    <div class="icon pinpoint"></div>
+                    <div class="game-info">
+                        <h6>Pinpoint #91</h6>
+                        <p>Guess the category</p>
+                    </div>
+                </div>
+                <div class="game">
+                    <div class="icon queens"></div>
+                    <div class="game-info">
+                        <h6>Queens #91</h6>
+                        <p>Crown each region</p>
+                    </div>
+                </div>
+                <div class="game">
+                    <div class="icon crossclimb"></div>
+                    <div class="game-info">
+                        <h6>Crossclimb #91</h6>
+                        <p>Unlock a trivia ladder</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <script src="HP.js"></script>
+</body>
+</html>

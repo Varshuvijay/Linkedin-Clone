@@ -1,0 +1,331 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f2ef;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    height: 40px;
+    border-bottom: 1px solid #e1e1e1;
+    width: fit-content;
+}
+
+.logo i{
+    margin-left: 400px;
+}
+
+
+.search-bar input {
+    width: 150px;
+    height: 16px;
+    padding: 5px;
+    margin-left: 8px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: #def1fb;
+}
+
+.search-bar ::placeholder{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 16px;
+
+}
+
+.icons{
+    margin-right: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+.icons .item{
+    margin-left: 15px;
+    font-size: 24px;
+    color: #5f5f5f;
+    justify-content: center;
+    padding-left: 2px;
+    text-align: center;
+}
+
+.icons span{
+    font-size: 10px;
+    color: #5f5f5f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.icons i img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons p{
+    font-size: 14px;
+    color: #da8a00;
+    display: flex;
+    text-decoration: underline;
+    padding-left: 15px;
+    text-align: center;
+    width: 100px;
+}
+
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 40px;
+    border: 1px solid #e1e1e1;
+}
+
+.Section {
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.Section h2 {
+    margin: 0 0 8px 0;
+    color: #005580;
+}
+
+.Section input {
+    width: 78%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.Section ::placeholder{
+    padding-left: 15px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0;
+    border-bottom: 1px solid #b0b0b0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tab {
+    background: #ffffff;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    border-color: #9c9c9c;
+    border-width: 0.5px;
+    font-size: 12px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.tab.active {
+    font-weight: bold;
+    background-color: #008204;
+    color: #ffffff;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.drop {
+    position:absolute;
+    display: inline-block;
+}
+
+.tab.active:after {
+    content: " ▼";
+    font-size: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-size: 14px;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.drop:hover .dropdown-content {
+    display: block;
+}
+
+
+.messages {
+    overflow-y: auto;
+    padding-top: 50px;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    margin: 0;
+}
+
+.heading_msg {
+    display: inline-block;
+}
+
+.heading_msg h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+}
+
+.heading_msg p {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+    color: #777;
+    display: inline-block;
+}
+
+.message:hover, .message.active {
+    background-color: #def1fb;
+}
+
+.message img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.message-info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-info h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    flex: 1;
+    font-size: 14px; 
+}
+
+.message-info p {
+    margin: 4px 0 0 0;
+    font-size: 12px;
+    color: #777;
+
+}
+
+.message-info span {
+    font-size: 12px;
+    color: #999;
+    flex: 1;
+    text-align: right;
+}
+
+.main-content {
+    flex: 1;
+    background-color: white;
+    margin-top: 20px;
+    height: fit-content;
+    border-radius: 10px;
+    margin: 20px;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 20px;
+}
+
+.message-details {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 10px;
+    
+}
+
+.sender h5{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.content p{
+    font-size: 14px;
+    color:#333;
+}
+
+.content li{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ad-section {
+    width: 20%;
+    background-color: white;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    margin-top: 16%;
+    margin-right: 40px;
+}
+
+.ad-section img {
+    width: 80%;
+    margin-bottom: 16px;
+}
+
+.ad-section p {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+.ad-section button {
+    background-color: #0073b1;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ad-section button:hover {
+    background-color: #005580;
+}
